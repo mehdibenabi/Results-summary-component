@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "HankenGrotesk-Bold";
+    src: url("/assets/fonts/static/HankenGrotesk-Bold.ttf");
+}
+@font-face {
+    font-family: "HankenGrotesk-ExtraBold";
+    src: url("/assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "HankenGrotesk-Medium";
+    src: url("/assets/fonts/static/HankenGrotesk-Medium.ttf");
+}
+@font-face {
+    font-family: "HankenGrotesk-VariableFont_wght";
+    src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.bigbox{
+    border-radius: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: 700px;
+    margin-top: 250px;
+    background-color : hsl(0, 0%, 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+.box1{
+justify-content: space-between;
+padding: 20px;
+background-color: hsla(241, 81%, 54%,0.8);
+height: 100%;
+width:50%;
+border-color: rgb(0, 0, 0);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+border-radius: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+;
+}
+.box1>h1{
+    font-family: "HankenGrotesk-Bold";
+    color: rgba(255, 255, 255,0.7);
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.circle{
+    border-radius: 100px;
+    border-color: #fff;
+    height: 170px;
+    width: 170px;
+    background-color: hsla(256, 72%, 46%, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "HankenGrotesk-Bold";
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 500ms all;
+}
+.circle:hover{
+    transform: rotate(360deg);
+}
+.circle>h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+}
+.circle>p{
+    font-size: 20px;
+    color: rgba(255, 255, 255,0.7);
+    font-weight: 700;
+}
+.box1-par{
+    font-family: "HankenGrotesk-Bold";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+.box1-par>h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.box1-par>p{
+    font-size: 18px;
+    color: rgba(255, 255, 255,0.7);
+    text-align: center;
+    font-weight: 700;
+}
+
