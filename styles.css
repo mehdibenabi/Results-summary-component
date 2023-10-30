@@ -1,6 +1,7 @@
 @font-face {
     font-family: "HankenGrotesk-Bold";
     src: url("/assets/fonts/static/HankenGrotesk-Bold.ttf");
+    
 }
 @font-face {
     font-family: "HankenGrotesk-ExtraBold";
@@ -104,4 +105,101 @@ text-align: center;
     text-align: center;
     font-weight: 700;
 }
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.box2>h1{
+    font-family: "HankenGrotesk-Bold";
+    font-weight: 800;
+    padding: 25px;
+    font-size: 25px;
+    position: relative;
+}
+.minbox-1{
+    font-family: "HankenGrotesk-Bold";
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-size: 18px;
+    background-color: hsla(0, 100%, 67%,.2);
+    color: hsl(0, 100%, 67%);
+}
+.minbox-2{
+    font-family: "HankenGrotesk-Bold";
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-size: 18px;
+    background-color: hsla(39, 100%, 56%,0.2);
+    color: hsl(39, 100%, 56%);;
+}
+.minbox-3{
+    font-family: "HankenGrotesk-Bold";
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-size: 18px;
+    background-color: hsla(166, 100%, 37%,0.2);
+    color: hsl(166, 100%, 37%);;
+}
+.minbox-4{
+    font-family: "HankenGrotesk-Bold";
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-size: 18px;
+    background-color: hsla(234, 85%, 45%,.2);
+    color: hsl(234, 85%, 45%);
+}
+.minbox-1>div ,.minbox-2>div ,.minbox-3>div ,.minbox-4>div{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    word-spacing:50px;
+}
+
+.iconreaction , .iconmemory , .iconverbal , .iconvisual{
+    padding-right: 12px;
+}
+button{
+    font-family: "HankenGrotesk-Bold";
+    border-radius: 30px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 18px;
+    background-color: hsla(251, 48%, 5%, 0.788);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    border: none;
+}
+button:hover{
+    background-color: rgba(122, 17, 17,0.5);
+    transition: 0.8s;
+}
+
+
 
