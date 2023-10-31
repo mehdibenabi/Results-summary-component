@@ -47,7 +47,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-;
 }
 .box1>h1{
     font-family: "HankenGrotesk-Bold";
@@ -104,6 +103,12 @@ text-align: center;
     color: rgba(255, 255, 255,0.7);
     text-align: center;
     font-weight: 700;
+    width: 75%;
+    word-spacing: 5px;
+}
+.bigbox2{
+    padding: 10px;
+    font-family: "HankenGrotesk-Bold";
 }
 .box2{
     display: flex;
@@ -112,12 +117,12 @@ text-align: center;
     align-items: center;
     padding: 10px;
 }
-.box2>h1{
+.bigbox2>h1{
     font-family: "HankenGrotesk-Bold";
     font-weight: 800;
-    padding: 25px;
-    font-size: 25px;
-    position: relative;
+    padding:  25px 0px 0px 35px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
 }
 .minbox-1{
     font-family: "HankenGrotesk-Bold";
@@ -178,6 +183,7 @@ text-align: center;
 
 .iconreaction , .iconmemory , .iconverbal , .iconvisual{
     padding-right: 12px;
+    height: 25px;
 }
 button{
     font-family: "HankenGrotesk-Bold";
@@ -186,7 +192,7 @@ button{
     width: 250px;
     display: flex;
     margin-left: 30px;
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: 18px;
     background-color: hsla(251, 48%, 5%, 0.788);
     color: hsl(0, 0%, 100%);
@@ -195,10 +201,26 @@ button{
     justify-content: center;
     font-weight: 900;
     border: none;
+    transition: all 0.8s;
 }
 button:hover{
     background-color: rgba(122, 17, 17,0.5);
-    transition: 0.8s;
+}
+.minbox-1 p{
+    display: flex;
+    gap: 40%;
+}
+.minbox-2 p{
+display: flex;
+gap: 45%;
+}
+.minbox-3 p{
+display: flex;
+gap: 60%;
+}
+.minbox-4 p{
+display: flex;
+gap: 65%;
 }
 
 
